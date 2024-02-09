@@ -11,7 +11,7 @@
 body {
   background-color: var(--bg);
   color: var(--text);
-  text-align: center;
+  text-align: left;
   font-size: 05px;
   font-family: 'Ubuntu Mono', monospace;
 }
@@ -45,6 +45,6 @@ body {
     font-family: monospace;
     white-space: pre;
     text-align: left;
-    text-scale: 30px;
+    text-scale: 35px;
     letter-spacing: 5px;
 }
