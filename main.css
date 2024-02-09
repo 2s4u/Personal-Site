@@ -10,17 +10,17 @@ body {
   background-color: var(--bg);
   color: var(--text);
   text-align: center;
-  font-size: 10px;
+  font-size: 25px;
 }
 
 .maintext {
   color: var(--text);
-  font-size: 10px;
+  font-size: 25px;
 }
 
 .secondarytext {
   color: var(--outlinetext);
-  font-size: 10px;
+  font-size: 25px;
 }
 
 .column {
