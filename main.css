@@ -15,10 +15,12 @@ body {
 
 .maintext {
   color: var(--text);
+  font-size: 10px;
 }
 
 .secondarytext {
   color: var(--outlinetext);
+  font-size: 10px;
 }
 
 .column {
@@ -36,4 +38,5 @@ body {
     font-family: monospace;
     white-space: pre;
     text-align: left;
+    text-scale: 20px;
 }
