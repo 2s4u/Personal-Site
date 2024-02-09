@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
 :root {
   --bg: #303446;
   --secondary: #292c3c;
@@ -10,24 +12,27 @@ body {
   background-color: var(--bg);
   color: var(--text);
   text-align: center;
-  font-size: 25px;
+  font-size: 05px;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 .maintext {
   color: var(--text);
-  font-size: 25px;
+  font-size: 20px;
   text-align: left;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 .secondarytext {
   color: var(--outlinetext);
-  font-size: 25px;
+  font-size: 20px;
   text-align: left;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 .column {
   float: left;
-  width: 30%;
+  width: 35%;
 }
 
 .row:after {
@@ -40,6 +45,6 @@ body {
     font-family: monospace;
     white-space: pre;
     text-align: left;
-    text-scale: 35px;
+    text-scale: 30px;
     letter-spacing: 5px;
 }
