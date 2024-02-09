@@ -1,10 +1,13 @@
 :root {
   --bg: #303446;
+  --secondary: #292c3c;
+  --tertiary: #232634;
   --text: #c6d0f5;
 }
 
 body {
   background-color: var(--bg);
+  color: var(--text);
 }
 
 .column {
@@ -16,4 +19,9 @@ body {
   content: "";
   display: table;
   clear: both;
+}
+
+.ascii-art {
+    font-family: monospace;
+    white-space: pre;
 }
