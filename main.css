@@ -1,7 +1,19 @@
 :root {
   --bg: #303446;
+  --text: #c6d0f5;
 }
 
 body {
   background-color: var(--bg);
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
