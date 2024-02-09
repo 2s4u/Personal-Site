@@ -16,12 +16,13 @@ body {
 .maintext {
   color: var(--text);
   font-size: 25px;
-  text-align: left
+  text-align: left;
 }
 
 .secondarytext {
   color: var(--outlinetext);
   font-size: 25px;
+  text-align: left;
 }
 
 .column {
