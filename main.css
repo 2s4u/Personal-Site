@@ -3,16 +3,26 @@
   --secondary: #292c3c;
   --tertiary: #232634;
   --text: #c6d0f5;
+  --outlinetext: #8caaee;
 }
 
 body {
   background-color: var(--bg);
   color: var(--text);
+  text-align: center;
+}
+
+.maintext {
+  color: var(--text);
+}
+
+.secondarytext {
+  color: var(--outlinetext);
 }
 
 .column {
   float: left;
-  width: 50%;
+  width: 30%;
 }
 
 .row:after {
