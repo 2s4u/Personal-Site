@@ -16,6 +16,7 @@ body {
 .maintext {
   color: var(--text);
   font-size: 25px;
+  text-align: left
 }
 
 .secondarytext {
@@ -38,6 +39,6 @@ body {
     font-family: monospace;
     white-space: pre;
     text-align: left;
-    text-scale: 35px;
-    letter-spacing: 3px;
+    text-scale: 45px;
+    letter-spacing: 5px;
 }
