@@ -10,9 +10,6 @@
 
 body {
   background-color: var(--bg);
-  color: var(--text);
-  text-align: left;
-  font-size: 05px;
   font-family: 'Ubuntu Mono', monospace;
 }
 
@@ -21,6 +18,7 @@ body {
   font-size: 20px;
   text-align: left;
   font-family: 'Ubuntu Mono', monospace;
+  line-height: 1;
 }
 
 .secondarytext {
@@ -28,6 +26,7 @@ body {
   font-size: 20px;
   text-align: left;
   font-family: 'Ubuntu Mono', monospace;
+  line-height: 1;
 }
 
 .column {
@@ -45,6 +44,6 @@ body {
     font-family: monospace;
     white-space: pre;
     text-align: left;
-    text-scale: 35px;
+    text-scale: 45px;
     letter-spacing: 5px;
 }
