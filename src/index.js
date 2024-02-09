@@ -4,5 +4,3 @@ export function setKeyDebug(b) {
 }
   setCommandHistory(JSON.parse(window.localStorage.getItem('commandHistory') || '[]') || []);
   //window.onmouseup = focus;
-
-  const input = document.querySelector('#commandinput');

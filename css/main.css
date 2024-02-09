@@ -46,7 +46,7 @@ p {
 
 .column {
   float: left;
-  width: 17%;
+  width: 400px;
 }
 
 .row:after {
@@ -58,7 +58,7 @@ p {
 .ascii-art {
     padding-top: 25px;
     white-space: pre;
-    color: var(--outlineText);
+    color: var(--outlineText  );
     letter-spacing: 2px;
 }
 
