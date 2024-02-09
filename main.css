@@ -38,5 +38,6 @@ body {
     font-family: monospace;
     white-space: pre;
     text-align: left;
-    text-scale: 20px;
+    text-scale: 35px;
+    letter-spacing: 3px;
 }
