@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+:root {
+  cursor:none;
+  --bg: #292c3c;
+  --secondary: #232634;
+  --text: #c6d0f5;
+  --outlineText: #8caaee;
+  --rosewater: #f2d5cf;
+  --flamingo: #eebebe;
+  --pink: #f4b8e4;
+  --mauve: #ca9ee6;
+  --red: #e78284;
+  --maroon: #ea999c;
+  --peach: #ef9f76;
+  --yellow: #e5c890;
+  --green: #a6d189;
+  --teal: #81c8be;
+  --sky: #99d1db;
+  --sapphire: #85c1dc;
+  --blue: #8caaee;
+  --black: #232634;
+}
+
+body {
+  background-color: var(--bg);
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 16px;
+}
+p {
+  text-align: left;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.maintext {
+  color: var(--text);
+
+}
+
+.secondarytext {
+  color: var(--outlineText);
+}
+
+.column {
+  float: left;
+  width: 17%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ascii-art {
+    padding-top: 25px;
+    white-space: pre;
+    color: var(--outlineText);
+    letter-spacing: 2px;
+}
+
+.black-bg {
+  background-color: var(--black)
+}
+.red-bg {
+  background-color: var(--red)
+}
+.green-bg {
+  background-color: var(--green)
+}
+.yellow-bg {
+  background-color: var(--yellow)
+}
+.blue-bg {
+  background-color: var(--blue)
+}
+.magenta-bg {
+  background-color: var(--mauve)
+}
+.cyan-bg {
+  background-color: var(--teal)
+}
+.white-bg {
+  background-color: var(--rosewater)
+}
