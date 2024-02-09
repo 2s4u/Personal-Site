@@ -35,4 +35,5 @@ body {
 .ascii-art {
     font-family: monospace;
     white-space: pre;
+    text-align: left;
 }
