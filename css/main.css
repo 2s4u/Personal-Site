@@ -86,3 +86,6 @@ p {
 .white-bg {
   background-color: var(--rosewater)
 }
+.pink-bg {
+  background-color: var(--pink);
+}
