@@ -1,2 +1,2 @@
-Personal site / modeling portfolio
-Quick school project, expect bad code :) 
+Personal site / modeling portfolio <br>
+School project, dont expect perfect code :) 
