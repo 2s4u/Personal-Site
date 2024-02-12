@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 
 :root {
-  cursor:none;
+  /* cursor:none; */
   --bg: #292c3c;
   --secondary: #232634;
   --text: #c6d0f5;
