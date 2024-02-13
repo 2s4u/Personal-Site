@@ -27,6 +27,11 @@ invistext {
   color: var(--bg);
 }
 
+nospace {
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+
 body {
   background-color: var(--bg);
   font-family: 'Ubuntu Mono', monospace;
