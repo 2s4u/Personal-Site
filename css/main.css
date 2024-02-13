@@ -22,6 +22,11 @@
   --black: #232634;
 }
 
+invistext {
+  background-color: var(--bg);
+  color: var(--bg);
+}
+
 body {
   background-color: var(--bg);
   font-family: 'Ubuntu Mono', monospace;
