@@ -58,6 +58,10 @@ p {
   float: left;
   width: 400px;
 }
+.thincolumn {
+  float: left;
+  width: 20px;
+}
 
 .row:after {
   content: "";
